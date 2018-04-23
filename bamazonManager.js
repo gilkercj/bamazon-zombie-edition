@@ -70,7 +70,6 @@ function lowInventory() {
 }
 
 function addInventory() {
-    viewProducts();
     inquirer.prompt([
         {
             type: "input",
