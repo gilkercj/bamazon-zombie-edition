@@ -122,10 +122,10 @@ function newProduct() {
                 if (err) throw err;
                 console.log("Product added.");
                 viewProducts();
-                start();
-            }
-        )
-    })
+                
+            });
+            start();
+    });
 }
 
 start();
